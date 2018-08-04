@@ -64,9 +64,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
 	vendor/huawei/HWPLK/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 	vendor/huawei/HWPLK/proprietary/etc/com.huawei.audioalgo.xml:system/etc/com.huawei.audioalgo.xml \
-	vendor/huawei/HWPLK/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
-	vendor/huawei/HWPLK/proprietary/etc/gps.conf:system/etc/gps.conf \
-	vendor/huawei/HWPLK/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
 	vendor/huawei/HWPLK/proprietary/etc/manufacture/PLK_L01.xml:system/etc/manufacture/PLK_L01.xml \
 	vendor/huawei/HWPLK/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
 	vendor/huawei/HWPLK/proprietary/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
@@ -411,7 +408,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/flp.default.so:system/lib64/hw/flp.default.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps.hi3635.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps47531.default.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.hi3635.so:system/lib64/hw/keystore.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/memtrack.hi3635.so:system/lib64/hw/memtrack.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorhub.default.so:system/lib64/hw/sensorhub.default.so \
